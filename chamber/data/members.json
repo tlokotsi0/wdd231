@@ -1,0 +1,59 @@
+[
+    {
+        "name": "Semonkong Lodge",
+        "address": "1, Riverside, Semonkong",
+        "phone": "+266-5888-1021",
+        "website": "https://semonkonglodge.com",
+        "image": "images/lodge.webp",
+        "membershipLevel": 3
+    },
+    {
+        "name": "Molibeli Hardware",
+        "address": "12, Main Bus Stop, Semonkong",
+        "phone": "+266-2232-3423",
+        "website": "https://molibelihardware.co.ls",
+        "image": "images/hardware.webp",
+        "membershipLevel": 2
+    },
+    {
+        "name": "Mphe Batho Cafe",
+        "address": "11, Main Bus Stop, Semonkong",
+        "phone": "+266-2262-5544",
+        "website": "https://mphebatho.co.ls",
+        "image": "images/mphebatho.webp",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Pitseng Resturant",
+        "address": "24, Main Bus Stop, Semonkong",
+        "phone": "+266-2232-4345",
+        "website": "https://pitseng.com",
+        "image": "images/pitseng.webp",
+        "membershipLevel": 2
+    },
+    {
+        "name": "Daily Needs Supermaket",
+        "address": "93, Main Bus Stop, Semonkong",
+        "phone": "+266-6323-1212",
+        "website": "https://dailyneeds.co.ls",
+        "image": "images/dailyneeds.webp",
+        "membershipLevel": 3
+    },
+    {
+        "name": "Pep Stores",
+        "address": "34, Main Bus Stop, Semonkong",
+        "phone": "+266-2223-2224",
+        "website": "https://pepstores.com",
+        "image": "images/pep.webp",
+        "membershipLevel": 3
+    },
+    {
+        "name": "Durban Lesotho",
+        "address": "78 Main Bus Stop, Semonkong",
+        "phone": "+266-2233-2425",
+        "website": "https://durbanlesotho.co.ls",
+        "image": "images/durban.webp",
+        "membershipLevel": 2
+    }
+
+]

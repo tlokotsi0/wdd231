@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD231 - Chamber Directory Page</title>
+    <meta name="author" content="Tlokotsi Foulo">
+    <meta property="og:title" content="Chamber of Commerce Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://tlokotsi0.github.io/wdd231/images/lagos.webp">
+    <meta property="og:url" content="https://tlokotsi0.github.io/wdd231/index.html#">
+    <meta property="twitter:card" content="">
+    <!-- Non Essential, But Recomended -->
+    <meta property="og:description" content="WDD231 - Course Home Page">
+    <meta property="og:site_name" content="Course Title">
+    <meta name="twiter:image:alt" content="Alt text for image">
+    <!-- Non Essential, But Required for Analytics -->
+    <meta property="fb:app_id" content="your_app_id">
+    <meta name="twitter:site" content="@tlokotsifoulo">
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico">
+    <!-- External Links -->
+    <link rel="stylesheet" href="styles/directory.css">
+    <script src="scripts/directory.js" defer></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.webp" alt="logo">
+            <h1> Directory</h1>
+            <a id="menu" href="#"></a>
+        </div>
+        <nav class="nav-links">
+            <ul class="navigation">
+                <li><a href="chamber.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html" target="_blank">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero">
+        <img src="images/maletsunyane.webp" alt="Hero Image" class="hero-image">
+        <button class="hero-button">Keynote Tickets</button>
+    </div>
+    <main>
+        <div id="memberContainer">
+            <button id="grid">⏹️ Grid</button>
+            <button id="list">📄 List</button>
+        </div>
+        <hr>
+        <article class="grid"></article>  
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <h5>Semonkong Chamber of commerce</h5>
+                <p>Ha Lepae</p>
+                <p>P. O. Box 1232</p>
+                <p>Semonkong 120</p>
+                <p>Lesotho</p>
+            </div>
+
+            <div class="footer-content">
+                <ul class="social-icons">
+                    <li><a href="facebook.com"><img src="images/fb.jpeg" alt="facebook" style="width: 42px;height: 42px;"></a></li>
+                    <li><a href="x.com"><img src="images/x.png" alt="facebook" style="width: 48px;height: 42px;"></a></li>
+                    <li><a href="instagram.com"><img src="images/instagram.jpeg" alt="facebook" style="width: 42px;height: 42px;"></a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <p>WDD231 Class Project</p>
+                <p>Tlokotsi Foulo</p>
+                <p> &copy; <span id="currentyear"></span> Semonkong Chamber of Commerce</p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
