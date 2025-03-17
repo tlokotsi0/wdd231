@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="home part of the chamber of commerce website">
+    <title>WDD231 - Home Page</title>
+    <meta name="author" content="Tlokotsi Foulo">
+    <meta property="og:title" content="Chamber of Commerce Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://tlokotsi0.github.io/wdd231/chamber/images/maletsunyane.webp">
+    <meta property="og:url" content="https://tlokotsi0.github.io/wdd231/chamber/directory.html">
+    <meta property="twitter:card" content="">
+    <!-- Non Essential, But Recomended -->
+    <meta property="og:description" content="WDD231 - Course Home Page">
+    <meta property="og:site_name" content="Course Title">
+    <meta name="twiter:image:alt" content="Alt text for image">
+    <!-- Non Essential, But Required for Analytics -->
+    <meta property="fb:app_id" content="your_app_id">
+    <meta name="twitter:site" content="@tlokotsifoulo">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <!-- External Links -->
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/chamber.js" defer></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.JPG" alt="logo">
+            <h1> Semonkong Chamber of Commerce</h1>
+            <a id="menu" href="#"></a>
+        </div>
+        <nav class="nav-links">
+            <ul class="navigation">
+                <li><a href="chamber.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html" target="_blank">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <img src="images/smk.webp" alt="Hero Image" class="hero-image">
+        <button class="hero-button">Keynote Tickets</button>
+    </section>
+    <main>
+        <h2>Home</h2>
+        <div class="flexbox-container">
+            <div class="flexbox-item flexbox-item-1">
+                <div class="events">
+                    <h3>Events</h3>
+                    <div id="events-content">
+                        <article>
+                            <h4>Annual Business Gala</h3>
+                            <p>December 15th, 2025 | Semonkong City Hall</p>
+                        </article>
+                        <article>
+                            <h4>Small Business Workshop</h3>
+                            <p>January 20th, 2025 | Virtual</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="flexbox-item flexbox-item--2">
+                <div class="current-weather">
+                    <h3>Current Weather</h3>
+                    <!-- Weather Section -->
+                    <div class="weather-content">
+                        <p>The current temperature in Semonkong, Lesotho is <span id="current-temp"></span></p>
+                        <figure>
+                            <img id="weather-icon" src="" alt="">
+                            <figcaption></figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="flexbox-item flexbox-item-3">
+                <div class="forecast">
+                    <h3>Weather Forecast</h3>
+                    <div class="forecast-content">
+                        <p>Today <strong>20°</strong></p>
+                        <p>Wednesday <strong>17°</strong></p>
+                        <p>Thursday <strong>14°</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Flexbox -->
+        <div class="flexbox-container-2">
+            <div class="flexbox-item-2 flexbox-item-01">
+                <!-- Business Directory Preview -->
+                <div class="business-directory">
+                    <h2>Business Name</h2>
+                    <p>Business Tag Line</p>
+                    <div class="business-content">
+                        <img src="images/" alt="">
+                        <div class="business-details">
+                            <p><strong>Email:</strong> info@gmail.com</p>
+                            <p><strong>Phone:</strong> +266-2555-1234</p>
+                            <p><strong>Url:</strong> mybusiness.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flexbox-item-2 flexbox-item-02">
+                <!-- Business Directory Preview2 -->
+                <div class="business-directory">
+                    <h2>Business Name</h2>
+                    <p>Business Tag Line</p>
+                    <div class="business-content">
+                        <img src="images/" alt="">
+                        <div class="business-details">
+                            <p><strong>Email:</strong> info@gmail.com</p>
+                            <p><strong>Phone:</strong> +266-4555-1234</p>
+                            <p><strong>Url:</strong> mybusiness.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flexbox-item-2 flexbox-item-03">
+                <!-- Business Directory Preview3 -->
+                <div class="business-directory">
+                    <h2>Business Name</h2>
+                    <p>Business Tag Line</p>
+                    <div class="business-content">
+                        <img src="images/" alt="">
+                        <div class="business-details">
+                            <p><strong>Email:</strong> info@gmail.com</p>
+                            <p><strong>Phone:</strong> +266-555-1234</p>
+                            <p><strong>Url:</strong> mybusiness.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cards"></div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <h5>Semonkong Chamber of commerce</h5>
+                <p>Ha Lepae</p>
+                <p>P. O. Box 1232</p>
+                <p>Semonkong 120</p>
+                <p>Lesotho</p>
+            </div>
+
+            <div class="footer-content">
+                <ul class="social-icons">
+                    <li><a href="www.facebook.com"><img src="images/fb.jpeg" alt="facebook" style="width: 42px;height: 42px;"></a></li>
+                    <li><a href="www.x.com"><img src="images/x.png" alt="x" style="width: 48px;height: 42px;"></a></li>
+                    <li><a href="www.instagram.com"><img src="images/instagram.jpeg" alt="instagram" style="width: 42px;height: 42px;"></a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <p>WDD231 Class Project</p>
+                <p>Tlokotsi Foulo</p>
+                <p> &copy; <span id="currentyear"></span> Semonkong Chamber of Commerce</p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
