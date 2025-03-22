@@ -73,6 +73,19 @@ main h2{
     margin: 0px 50px;
 }
 
+#cards {
+    margin: 10px 50px 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bed;
+	text-align: center;
+}
+
+#cards button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
 .flexbox-container {
     display: flex;
     flex-flow: row wrap;
@@ -611,6 +624,9 @@ nav {
     }
     .footer-content ul{
         text-align: center;
+    }
+    .footer-content ul li {
+        list-style-type: none;
     }
     .list{
         padding: 0;
