@@ -627,6 +627,8 @@ nav {
     }
     .footer-content ul li {
         list-style-type: none;
+        width: 42px;
+        height: 42px;
     }
     .list{
         padding: 0;
