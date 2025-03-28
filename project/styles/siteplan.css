@@ -1,0 +1,37 @@
+html {
+    background-color: #06908f;
+}
+
+
+h1{
+    color: #fa0107;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    color: black;
+    font-size: 1.6rem;
+    font-family: "Raleway", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: .9rem;
+    background-color: #fbff12;
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
