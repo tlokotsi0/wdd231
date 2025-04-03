@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD231 - Course Home Page</title>
+        <meta name="author" content="Tlokotsi Foulo">
+        <meta property="og:title" content="Course Title">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://tlokotsi0.github.io/wdd231/images/maletsunyane.webp">
+        <meta property="og:url" content="https://tlokotsi0.github.io/wdd231/index.html#">
+        <meta property="twitter:card" content="">
+        <!-- Non Essential, But Recomended -->
+        <meta property="og:description" content="WDD231 - Course Home Page">
+        <meta property="og:site_name" content="Course Title">
+        <meta name="twiter:image:alt" content="Alt text for image">
+        <!-- Non Essential, But Required for Analytics -->
+        <meta property="fb:app_id" content="your_app_id">
+        <meta name="twitter:site" content="@tlokotsifoulo">
+        <!-- External Links -->
+        <link rel="stylesheet" href="styles/chamber.css">
+        <script src="scripts/chamber.js" defer></script>
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Logo">
+                <h1> Semonkong Chamber Of Commerce</h1>
+                <a id="menu" href="#"></a>
+            </div>
+            <nav class="nav-links">
+                <ul class="navigation">
+                    <li><a href="chamber.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html" target="_blank">Join</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="discover-page">
+            <!-- Sidebar Section -->
+            <aside class="sidebar">
+                <div class="info-box">
+                    <h2>December Carol</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate.</p>
+                </div>
+                <div class="info-box">
+                    <h2>Light the World</h2>
+                    <img src="images/semonkong.webp" alt="Semonkong">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="calendar-container">
+                    <div class="calendar-header">
+                        <select id="month-select"></select>
+                        <select id="year-select"></select>
+                    </div>
+                    <table class="calendar-table">
+                        <thead>
+                            <tr>
+                                <th>SU</th>
+                                <th>MO</th>
+                                <th>TU</th>
+                                <th>WE</th>
+                                <th>TH</th>
+                                <th>FR</th>
+                                <th>SA</th>
+                            </tr>
+                        </thead>
+                        <tbody id="calendar-body"></tbody>
+                    </table>
+                    <div id="selected-date" class="selected-date"></div>
+                </div>                                
+                <div id="lastVisitMessage"></div>
+            </aside>
+    
+            <!-- Main Image Gallery -->
+            <section class="gallery">
+                <h2>Explore the Area</h2>
+                <figure>
+                    <img src="images/town.webp" data-src="images/image1.jpg" alt="Landmark 1" loading="lazy">
+                    <figcaption>Historic Downtown</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/falls.jpeg" data-src="images/image2.jpg" alt="Landmark 2" loading="lazy">
+                    <figcaption>Iconic Maletsunyane Waterfall</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/pony.webp" data-src="images/image3.jpg" alt="Landmark 3" loading="lazy">
+                    <figcaption>Nature Trails</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/hiking.webp" data-src="images/image3.jpg" alt="Landmark 3" loading="lazy">
+                    <figcaption>Nature Trails</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Stars.jpeg" data-src="images/image3.jpg" alt="Landmark 3" loading="lazy">
+                    <figcaption>Breathtaking Night views</figcaption>
+                </figure>
+            </section>
+        </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <h5>Semonkong Chamber of commerce</h5>
+                <p>Ha Lepae</p>
+                <p>P. O. Box 1232</p>
+                <p>Semonkong 120</p>
+                <p>Lesotho</p>
+            </div>
+    
+            <div class="footer-content">
+                <ul class="social-icons">
+                    <li><a href="www.facebook.com"><img src="images/fb.jpeg" alt="facebook"></a></li>
+                    <li><a href="www.x.com"><img src="images/x.png" alt="x"></a></li>
+                    <li><a href="www.instagram.com"><img src="images/instagram.jpeg" alt="instagram"></a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-content">
+                <p>WDD231 Class Project</p>
+                <p>Tlokotsi Foulo</p>
+                <p> &copy; <span id="currentyear"></span> Semonkong Chamber of Commerce</p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    
+      </footer>
+
+</body>
+</html>
