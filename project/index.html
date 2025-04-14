@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thabong Multipurpose organisation || Home</title>
+    <meta name="description" content="WDD231 Project - Thabong Multipurpose">
+    <meta name="author" content="Tlokotsi Foulo">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Thabong Multipurpose organisation">
+    <meta property="og:description" content="Changing lives one person at the time">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/pep.css">
+</head>
+<body>
+    <header>
+        <img src="images/thabong.jpg" alt="Thabong Logo">
+        <button id="trygram" aria-label="hamburger-button"></button>
+    </header>
+    <nav id="nav-animation" >
+        <ul class="menu-navs">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="athletes.html">Athletes</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="hero-items">
+            <h1> Investing in Youth,<br><span>HIV/AIDS awareness Campain</span> </h1>
+            <picture class="hero-img">
+                <source srcset="images/youth.jpg" media="(min-width: 704px)">
+                <img src="images/myhero.jpg" alt="new-hero-large">
+            </picture>
+        </div>
+
+        <section class="events-sec">
+            <h2>Events</h2>
+            <div class="events-container"></div>
+        </section>
+       <section class="sub-sec">
+        <form class="sub-form" action="sub.html" onsubmit="saveSubEmail(event)">
+            <h3>Subscribe for updates:</h3>
+            <label><span>Email:*</span><input type="email" name="email" autocomplete="email" placeholder="example@gmail.com" id="sub-email" required></label>
+            <button type="submit" class="sub-btn">Submit</button>
+        </form>
+       </section>
+
+    </main>
+   
+    <footer>
+        <section class="footer address">
+            <h3>Thabong Multipurpose Organisation</h3>
+            <address>
+                Ha Lepae, Bonyeka Seretse<br>
+                Semonkong<br>
+                info@thabong.org<br>
+                (266) 555 595 354<br>
+            </address>
+        </section>
+        <div class="media-links">
+            <h3>Connect With us</h3>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/fb.jpeg" alt="facebook logo" width="40" height="40">
+            </a>
+            <a href="https://www.x.com/" target="_blank">
+                <img src="images/twitter.jpeg" alt="x logo" width="40" height="40">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.jpeg" alt="instagram Logo" width="40" height="40">
+            </a>
+        </div>
+        <div class="author-info">
+            <p>
+                WDD231 - End of Course Project<br>
+                Tlokotsi Foulo<br>
+                © Thabong Multipurpose Organisation<br>
+            </p>
+        </div>
+        
+    </footer>
+    <script src="scripts/pep.js"></script>
+</body>
+</html>

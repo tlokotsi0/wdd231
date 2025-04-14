@@ -1,0 +1,19 @@
+{
+    "events": [
+      {
+        "name": "Annual Charity Sports Gala",
+        "description": "A grand evening celebrating sports achievements and raising funds for young athletes. The event features keynote speeches from renowned sports personalities, award ceremonies, and fundraising auctions for sports development programs.",
+        "image": "./images/dinner.jpg"
+      },
+      {
+        "name": "Youth Sports Development Camp",
+        "description": "A week-long training camp for young athletes, offering specialized coaching in various sports. The camp includes skill-building exercises, mentorship sessions, and fitness assessments to prepare participants for competitive sports.",
+        "image": "./images/camp.jpeg"
+      },
+      {
+        "name": "Community Fun Run & Wellness Fair",
+        "description": "A fun-filled 5K run promoting health and wellness within the community. Participants of all ages can join the run, followed by a wellness fair offering free health check-ups, fitness workshops, and nutritional guidance.",
+        "image": "./images/run.jpeg"
+      }
+    ]
+  }

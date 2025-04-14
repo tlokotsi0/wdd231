@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thabong Multipurpose organisation || Contact Us</title>
+    <meta name="description" content="WDD231 Project - Thabong Multipurpose organisation">
+    <meta name="author" content="Tlokotsi Foulo">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/pep.css">
+</head>
+<body>
+    <header>
+        <img src="images/thabong.jpg" alt="Thabong logo">
+        <button id="trygram" aria-label="hamburger-button"></button>
+    </header>
+    <nav id="nav-animation" >
+        <ul class="menu-navs">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="athletes.html">Athletes</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+       <div class="contact-form">
+        <section class="cont-invite">
+            <h2>Contact Us</h2>
+            <p>
+                We welcome your support! Contact us to learn more about Thabong Multipurpose organisation, our initiatives, registrations and how you can help!
+            </p>
+            <p>info@thabong.org</p>
+            <address>
+                Ha Lepae, Bonyeka Seretse<br>
+                Semonkong<br>
+                (266) 555 595 354<br>
+            </address>
+            <hr>
+            <article>
+                <h2>The History of Thabong Multipurpose Organisation</h2>
+                <p>
+                    Thabong Multipurpose Organisation (TMO®) is a non-governmental organization (NGO) registered in Lesotho. 
+                    TMO operates in Semonkong Lesotho where it is running a number of activities and projects in an attempt to 
+                    help curb the scourge of poverty lines to the lives of the people of Semonkong and its surrounding villages. 
+                    TMO focuses on HIV/AIDS status awareness and life skills trainings, orphans and vulnerable children especially the 
+                    child-headed families, teaches the community income-generating activities, protects the rights of women and children 
+                    and as well supporting eco-friendly environment initiatives. Semonkong, the place of smoke, is the best camptown in Lesotho. 
+                    It is home to the beautiful, the 192m Maletsunyane Waterfall. It is only 120km from Maseru, the capital city of Lesotho 
+                    with a very nice dirt road that will soon be paved all the way to Qacha’s Nek through to Durban. Semonkong is 2,300m above 
+                    sea level. The organization exists to glorify God and to teach the community of Semonkong Christ-like principles.
+
+                </p>
+            </article>
+        </section>
+        <section class="form-sec">
+            <h2>Membership Registration Form</h2>
+            <form id="register-form" method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Child Information</legend>
+                    <label>First Name:*<input type="text" name="firstname" title="Enter child's first name" autocomplete="given-name" required></label>
+                    <label>Last Name:*<input type="text" name="lastname" title="Enter child's last name" autocomplete="family-name" required></label>
+                    <label>Date of Birth:*<input type="date" name="birthdate" required></label>
+                    <label for="sports">Choose a Sports
+                        <select id="sports" name="sports">
+                            <option>Select a sports</option>
+                            <option value="football">Football</option>
+                            <option value="basketball">Basketball</option>
+                            <option value="Volleyball">Volleyball</option>
+                            <option value="Swimming">Swimming</option>
+                            <option value="handball">Handball</option>
+                        </select>
+                    </label>
+                    <label for="countries" > Select Your Country
+                        <select name="country" id="countries">
+                            <option value="">Select Your Country</option>
+                        </select>
+                    </label>
+                   
+                </fieldset>
+                <fieldset>
+                    <legend>Guardian Information</legend>
+                    <label>Full Name:*<input type="text" name="parent-fullname" title="Enter parent's full name" autocomplete="name" required ></label>
+                    <label>Phone:*<input type="tel" name="phone" autocomplete="tel" required></label>
+                    <label>Email<span>(Optional)</span>: <input type="email" name="email" autocomplete="email" placeholder="example@gmail.com"></label>
+                </fieldset>
+            
+                <button type="submit">Register</button>
+            </form>
+           </section>
+       </div>
+    </main>
+   
+    <footer>
+        <section class="footer address">
+            <h3>Thabong Multipurpose Organisation</h3>
+            <address>
+                Ha Lepae, Bonyeka Seretse<br>
+                Semonkong<br>
+                info@thabong.org<br>
+                (266) 555 595 354<br>
+            </address>
+        </section>
+        <div class="media-links">
+            <h3>Connect With us</h3>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/fb.jpeg" alt="facebook logo" width="40" height="40">
+            </a>
+            <a href="https://www.x.com/" target="_blank">
+                <img src="images/twitter.jpeg" alt="x logo" width="40" height="40">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.jpeg" alt="instagram Logo" width="40" height="40">
+            </a>
+        </div>
+        <div class="author-info">
+            <p>
+                WDD231 - End of Course Project<br>
+                Tlokotsi Foulo<br>
+                © Thabong Multipurpose Organisation<br>
+            </p>
+        </div>
+        
+    </footer>
+        
+    </footer>
+    <script src="scripts/pep.js" type="module"></script>
+</body>
